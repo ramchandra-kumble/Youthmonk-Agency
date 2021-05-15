@@ -2278,7 +2278,7 @@ button,
     margin-top: 0;
     padding-top: 0; }
 
-    /* .quote {
+    .quote {
       width: 100%;
       
      
@@ -2286,4 +2286,4 @@ button,
 
   .social {
     text-align: center;
-  } */
+  }
