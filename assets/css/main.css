@@ -2278,3 +2278,13 @@ button,
     margin-top: 0;
     padding-top: 0; }
 
+    .quote {
+      width: 100%;
+      text-align: center;
+     
+  }
+
+  .social {
+    text-align: center;
+  }
+
