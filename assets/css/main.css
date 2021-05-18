@@ -2341,4 +2341,17 @@ button,
   margin: 0em 2em;
 }
  }
+
+ #bottom {
+   margin-top:3em;
+ }
+
+ @media screen and (max-width: 980px){
+   #pointdiv{
+     order: 2;
+   }
+   #imagediv{
+     order: 1;
+   }
+ }
   
