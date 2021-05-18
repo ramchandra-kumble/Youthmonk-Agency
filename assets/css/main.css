@@ -2232,7 +2232,7 @@ button,
   text-transform: uppercase; }
   #menu ul a, #menu ul span {
     border-bottom: 0;
-    color: inherit;
+    color: #ffffff;
     cursor: pointer;
     display: block;
     font-size: 0.9em;
