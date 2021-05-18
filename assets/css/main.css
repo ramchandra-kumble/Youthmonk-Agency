@@ -1949,7 +1949,9 @@ button,
   background-color: #f5f6f7;
   font-size: 0.9em;
   position: relative;
-  width: 26em; }
+  width: 26em;
+  background-color: #001647;
+}
   #sidebar h2 {
     font-size: 1.38889em; }
   #sidebar > .inner {
@@ -2232,7 +2234,7 @@ button,
   text-transform: uppercase; }
   #menu ul a, #menu ul span {
     border-bottom: 0;
-    color: #ffffff;
+    color: inherit;
     cursor: pointer;
     display: block;
     font-size: 0.9em;
