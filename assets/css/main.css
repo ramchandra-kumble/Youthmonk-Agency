@@ -2346,6 +2346,10 @@ button,
 }
  }
 
+ #imagediv img{
+   width: 100%;
+ }
+
  #bottom {
    margin-top:3em;
  }
