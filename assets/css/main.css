@@ -2316,6 +2316,7 @@ button,
     line-height: 2em;
     color: #f56a6a;
     font-size: 1.6em;
+    text-align:left;	  
   }
 
   .process{
