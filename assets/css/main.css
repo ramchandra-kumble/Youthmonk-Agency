@@ -2363,6 +2363,9 @@ button,
    }
    #imagediv{
      order: 1;
+     margin-top: 1em;	   
    }
  }
-  
+  .list-points li {
+    padding: 0;
+}
