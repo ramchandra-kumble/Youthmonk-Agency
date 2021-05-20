@@ -2376,6 +2376,8 @@ button,
    }
    #imagediv{
      order: 1;
+       width: 87% !important;
+    margin-left: 2em !important;	   
    }
 
    .intro {
@@ -2415,10 +2417,7 @@ button,
   height: 70px;
 }
 
-#imagediv {
-  width: 87% !important;
-    margin-left: 2em !important;
-}
+
    
   }
 
