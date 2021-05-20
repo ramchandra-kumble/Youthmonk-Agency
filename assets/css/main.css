@@ -2349,14 +2349,18 @@ button,
 .intro {
   margin: 0em 2em;
 }
+
  }
+
+
+
+
+
 
  #imagediv img{
    width: 100%;
  }
- .divider img{
-   width:100%;
- }
+ 
 
  #bottom {
    margin-top:3em;
@@ -2410,8 +2414,22 @@ button,
 #header{
   height: 70px;
 }
+
+#imagediv {
+  width: 87% !important;
+    margin-left: 2em !important;
+}
    
   }
+
+#pointdiv {
+    padding-left: 4em;
+}
+
+#imagediv {
+  width: 42%;
+  margin-left: 4em;
+}
 
     
   
