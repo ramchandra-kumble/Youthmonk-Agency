@@ -2078,13 +2078,13 @@ button,
       text-indent: 7.25em;
       width: 7.25em; }
       #sidebar .toggle:before {
-        color: #001647;
-        margin-left: -0.0625em;
-        margin-top: -0.25em;
+        color: #f56a6a;
+        margin-left: -1.0625em;
+        margin-top: 0.25em;
         font-size: 1.1rem;
         z-index: 1; }
       #sidebar .toggle:after {
-        background: #f56a6a;
+        /* background: #f56a6a; */
         border-radius: 0.375em;
         content: '';
         height: 3.5em;
@@ -2118,7 +2118,7 @@ button,
     text-align: right;
     position: absolute;
     right: 2em;
-    top: 3em; }
+    top: 2em; }
   @media screen and (max-width: 1680px) {
     #header {
       padding-top: 1em; } }
@@ -2133,7 +2133,7 @@ button,
         line-height: 5em;
         position: absolute;
         right: 1.5em;
-        top: 2em; } }
+        top: 0.5em; } }
 
 /* Banner */
 #banner {
