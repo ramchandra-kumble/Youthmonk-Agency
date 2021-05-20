@@ -2402,6 +2402,9 @@ button,
 .logoimg{
   position: absolute;
   left:70px;
+} 
+.service, .process{
+  margin:3em 2em;
 }
 
 #header{
