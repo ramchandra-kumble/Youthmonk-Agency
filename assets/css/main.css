@@ -2435,5 +2435,8 @@ button,
   margin-left: 4em;
 }
 
-    
-  
+.webdev-services-img{
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+}
