@@ -2796,7 +2796,7 @@ body.single #wrapdiv {
 body.single #foot {
   text-align: center;
 }
-/* Carausal CSS */
+ /* Carausal CSS */
 
  .carousel {
   position: relative;
@@ -3028,7 +3028,7 @@ body.single #foot {
 }
 
 #demo {
-  background: linear-gradient(112deg, #ffffff 50%, #f45c5c  50%);
+  background: linear-gradient(112deg, #ffffff 50%, #f56a6a  50%);
   max-width: 1000px;
   height: 500px;
   border-radius: 5px;
@@ -3041,7 +3041,7 @@ body.single #foot {
   padding: 5rem 8rem;
   color: rgba(78, 77, 77, 0.856);
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-style: italic;
   font-weight: bold;
   line-height: 2rem;
@@ -3054,7 +3054,7 @@ body.single #foot {
     padding: 3rem 2rem;
     color: rgba(78, 77, 77, 0.856);
     text-align: center;
-    font-size: 0.7rem;
+    font-size: 2.4rem;
     font-style: italic;
     font-weight: bold;
     line-height: 1.5rem;
@@ -3113,6 +3113,3 @@ i {
   transition: none;
   opacity: unset;
 }
-
-    
-  
