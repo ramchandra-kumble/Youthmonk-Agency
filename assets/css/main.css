@@ -1443,6 +1443,7 @@ ul.pagination {
     ul.pagination li:first-child {
       padding-right: 0; } }
 
+
 /* Table */
 .table-wrapper {
   -webkit-overflow-scrolling: touch;
@@ -3120,9 +3121,7 @@ i {
 body.single #foot {
   text-align: center;
 }
-/* Carausal CSS */
-
- .carousel {
+  .carousel {
   position: relative;
 }
 
@@ -3352,9 +3351,9 @@ body.single #foot {
 }
 
 #demo {
-  background: linear-gradient(112deg, #ffffff 50%, #f45c5c  50%);
+  background: grey;
   max-width: 1000px;
-  height: 500px;
+  height: 400px;
   border-radius: 5px;
   margin: auto;
 }
@@ -3362,9 +3361,10 @@ body.single #foot {
 .carousel-caption {
   position: initial;
   z-index: 10;
-  padding: 5rem 8rem;
-  color: rgba(78, 77, 77, 0.856);
+  padding: 4rem 6rem;
+  color: #fff;
   text-align: center;
+  margin-top: 1rem;
   font-size: 1.2rem;
   font-style: italic;
   font-weight: bold;
@@ -3376,9 +3376,10 @@ body.single #foot {
     position: initial;
     z-index: 10;
     padding: 3rem 2rem;
-    color: rgba(78, 77, 77, 0.856);
+    color: white;
     text-align: center;
-    font-size: 0.7rem;
+    margin-top: -1rem;
+    font-size: 1.2rem;
     font-style: italic;
     font-weight: bold;
     line-height: 1.5rem;
@@ -3388,7 +3389,7 @@ body.single #foot {
 .carousel-caption img {
   width: 6rem;
   border-radius: 5rem;
-  margin-top: 2rem;
+  margin-top: 0.5rem;
 }
 
 @media (max-width: 767px) {
@@ -3399,13 +3400,14 @@ body.single #foot {
   }
 }
 
+@media (max-width: 411px) {
 #image-caption {
   font-style: normal;
   font-size: 1rem;
-  margin-top: 0.5rem;
-}
+  margin-top: -0.5rem;
+}}
 
-@media (max-width: 767px) {
+@media (max-width: 411px) {
   #image-caption {
     font-style: normal;
     font-size: 0.6rem;
