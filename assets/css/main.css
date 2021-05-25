@@ -3446,4 +3446,40 @@ i {
   width: 75px;
 }
     
+.lower-webdev-process {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.lower-webdev-process-item1 {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  margin-left: 300px;
+}
+.lower-webdev-process-item2 {
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  margin-right: 300px;
+}
+
+@media screen and (max-width: 980px) {
+  
+  .lower-webdev-process {
+
+    flex-direction: column;
+    justify-content: space-around;
+  
+  }
+.lower-webdev-process-item1 {
+  
+  margin-left: 0px;
+}
+.lower-webdev-process-item2 {
  
+  margin-right: 0px;
+}
+}
