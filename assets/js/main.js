@@ -77,10 +77,14 @@
 			breakpoints.on('<=large', function() {
 				$sidebar.addClass('inactive');
 			});
+			
+			
 
-			breakpoints.on('>large', function() {
-				$sidebar.addClass('inactive');
-			});
+
+
+			// breakpoints.on('>large', function() {
+			// 	$sidebar.addClass('inactive');
+			// });
 
 		// Hack: Workaround for Chrome/Android scrollbar position bug.
 			if (browser.os == 'android'
@@ -260,3 +264,32 @@
 			});
 
 })(jQuery);
+
+
+
+
+
+
+
+document.querySelector(".submit").addEventListener('click', function(e) {
+	var userInputNumber = document.querySelector(".form_input").value;
+	userInputNumber = parseInt(userInputNumber)
+	
+	if (userInputNumber > 6000000001 & userInputNumber < 9999999999  )
+	{
+	  e.preventDefault();
+	  document.querySelector(".thankyou").style.display = "block";
+	  document.querySelector(".form").style.display = "none";
+	  console.log(userInputNumber);
+	}
+	else
+	{
+	e.preventDefault();
+	alert("Invalid Number")
+	}
+	}, false);
+
+	document.querySelector(".testimonials-list").addEventListener('click', function() {
+		document.getElementById('sidebar').classList.add('inactive');
+		
+	});

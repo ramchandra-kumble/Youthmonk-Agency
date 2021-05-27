@@ -1037,7 +1037,7 @@ textarea {
   border-radius: 0.375em;
   border: none;
   border: solid 1px rgba(210, 215, 217, 0.75);
-  color: inherit;
+  color: #000;
   display: block;
   outline: 0;
   padding: 0 1em;
@@ -1516,7 +1516,8 @@ button,
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  white-space: nowrap; }
+  white-space: nowrap; 
+}
   input[type="submit"]:hover,
   input[type="reset"]:hover,
   input[type="button"]:hover,
@@ -3959,3 +3960,45 @@ i {
           }
   
     }
+
+    /* contact me CSS */
+
+    .form__button {
+      position: relative;
+      left: 145px;
+      top: 30px;
+
+    }
+
+    .thankyou{
+      font-size: 3rem;
+      position: absolute;
+      left:80px;
+      bottom: 175px;
+      display: none;
+      background-color:transparent;
+      border-radius: 0.375em;
+      border: 0;
+      box-shadow: inset 0 0 0 2px #bcbec0;
+      color:  #bcbec0 !important;
+      
+      font-family: "Roboto Slab", serif;
+      font-size: 1em;
+      font-weight: 700;
+      height: 4em;
+      letter-spacing: 0.075em;
+      line-height: 3.5em;
+      padding: 0.2rem 2.25em;
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+      width: 50%;
+    }
+ 
+    .form {
+     display: block;
+    }
+    .formContainer {
+      height: 100px;
+    }
+    
