@@ -3974,7 +3974,7 @@ i {
       font-size: 3rem;
       position: absolute;
       left:80px;
-      bottom: 175px;
+      margin-top: 20px;
       display: none;
       background-color:transparent;
       border-radius: 0.375em;
@@ -3994,6 +3994,30 @@ i {
       text-transform: uppercase;
       width: 50%;
     }
+
+
+    @media screen and (max-width:1280px) {
+
+      .thankyou {
+        left: 65px;
+        margin-top: 23px;
+       
+      }
+
+      .form__button {
+        position: relative;
+        left: 116px;
+        top: 30px;
+  
+      }
+
+      
+    }
+
+
+
+
+
  
     .form {
      display: block;
