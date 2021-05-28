@@ -3674,14 +3674,14 @@ i {
   
     @media screen and (max-width: 980px) {
   
-      .post {
-        border-left: 0;
-        border-right: 0;
-        left: -3em;
-        width: calc(100% + (3em * 2));
-	background: white;
-  	color:black;
-      }
+       .post {
+         padding: 3em 3em 1em 3em;
+    	 border: solid 1px rgba(160, 160, 160, 0.3);
+   	 position: relative;
+   	 margin: 1em 3em 3em 3em;
+   	 background: white;
+    	 color: black;
+  	}
   
         .post > header {
 	   color: black;
@@ -3797,14 +3797,14 @@ i {
   
     @media screen and (max-width: 736px) {
   
-      .post {
-	background:white;
-	color:black;
-        padding: 1.5em 1.5em 0.1em 1.5em ;
-        left: -1.5em;
-        margin: 0 0 2em 0;
-        width: calc(100% + (1.5em * 2));
-      }
+   .post {
+    padding: 3em 3em 1em 3em;
+    border: solid 1px rgba(160, 160, 160, 0.3);
+    position: relative;
+    margin: 1em 3em 3em 3em;
+    background: white;
+    color: black;
+  }
   
         .post > header {
 	  color:black;
@@ -3860,10 +3860,14 @@ i {
     }
   
     @media screen and (max-width: 480px) {
-	    
-	    .post{
+	   
+    .post {
+    padding: 3em 3em 1em 3em;
+    border: solid 1px rgba(160, 160, 160, 0.3);
+    position: relative;
     margin: 1em 3em 3em 3em;
     background: white;
+    color: black;
   }
 
   .post > header{
