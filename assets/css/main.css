@@ -1258,10 +1258,10 @@ a.image {
     -ms-transition: -ms-transform 0.2s ease;
     transition: transform 0.2s ease; }
   a.image:hover img {
-    -moz-transform: scale(1.075);
-    -webkit-transform: scale(1.075);
-    -ms-transform: scale(1.075);
-    transform: scale(1.075); }
+    -moz-transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    transform: scale(1.02); }
 
 /* List */
 ol {
