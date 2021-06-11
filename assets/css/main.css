@@ -1004,8 +1004,9 @@ header p {
 header.major > :last-child {
   border-bottom: solid 3px #bcbec0;
   display: inline-block;
-  margin: 0 0 2em 0;
-  padding: 0 0.75em 0.5em 0; }
+  margin: 0em 0em 1em 0em;
+  padding: 0.5em;
+}
 
 header.main > :last-child {
   margin: 0 0 1em 0; }
