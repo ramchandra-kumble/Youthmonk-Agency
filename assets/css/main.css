@@ -4146,7 +4146,9 @@ p{
 	width:79%;
 	max-width:95rem;
 	padding:5rem;
-	margin:2rem;
+	margin-top:2rem;
+	margin-left:25px;
+	margin-right:25px;
 	background-color:#fff;
 	box-shadow:0 1.4rem 8rem rgba(0,0,0,.2);
 	display:flex;
