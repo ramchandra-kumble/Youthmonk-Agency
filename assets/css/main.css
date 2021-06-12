@@ -4143,8 +4143,8 @@ p{
 
 /*BLOG POST ON HOMEPAGE*/
 .blog-post{
-	width:100%;
-	max-width:98rem;
+	width:79%;
+	max-width:95rem;
 	padding:5rem;
 	margin:2rem;
 	background-color:#fff;
