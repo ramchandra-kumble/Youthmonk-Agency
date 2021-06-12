@@ -4143,9 +4143,9 @@ p{
 
 /*BLOG POST ON HOMEPAGE*/
 .blog_post .blog-post{
-	width:100%;
-	max-width:98rem;
-	padding:5rem;
+	width:90%;
+	max-width:95rem;
+	padding:3rem;
 	margin-top:2rem;
 	background-color:#fff;
 	box-shadow:0 1.4rem 8rem rgba(0,0,0,.2);
