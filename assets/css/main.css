@@ -4144,13 +4144,13 @@ p{
 /*BLOG POST ON HOMEPAGE*/
 .blog_post .blog-post{
 	width:100%;
-	max-width:95rem;
+	max-width:98rem;
 	padding:5rem;
 	margin-top:2rem;
 	background-color:#fff;
 	box-shadow:0 1.4rem 8rem rgba(0,0,0,.2);
 	display:flex;
-	margin-left:25px;
+	//margin-left:25px;
 	//margin-right:25px;
 	align-items:center;
 	border-radius: .8rem;
@@ -4231,12 +4231,8 @@ p{
 }
 @media screen and(max-width:425px){
 	.blog-post{
-	max-width:20rem;
-	}
-	.blog-post_img{
-	min-width:20px;
-	max-width:20px;
-	display:block;
+	max-width:50rem;
+	flex-direction:column;
 	}
 }
 
