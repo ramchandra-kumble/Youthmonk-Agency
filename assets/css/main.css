@@ -3529,6 +3529,7 @@ i {
   
         .post > header .title > :last-child {
           margin-bottom: 0;
+		color:black;
         }
   
       .post > header .meta {
@@ -3580,6 +3581,11 @@ i {
         -ms-transform: scale(1.05);
         transform: scale(1.05);
       }
+
+	.post> p{
+        color: #080d11;
+	}
+	
   
     .post > footer {
       display: -moz-flex;
@@ -3763,6 +3769,11 @@ i {
 	  -ms-transform: scale(1.05);
 	  transform: scale(1.05);
 	}
+	    
+	    .post > header .title > :last-child {
+              margin-bottom: 0;
+		color:black;
+           }
   
               .post > header .meta .author .name {
                 margin: 0 0 0 1.5em;
@@ -3772,6 +3783,10 @@ i {
                 width: 3.5em;
               }
 	    
+	    .post> p{
+       	      color: #080d11;
+		}
+		    
 	    .post>footer .button{
   		-moz-appearance: none;
   		-webkit-appearance: none;
@@ -3830,6 +3845,10 @@ i {
             font-size: 1.1em;
           }
 	    
+	    .post> p{
+        color: #080d11;
+	}
+	    
 	    .post > a.image.featured {
   	width: fit-content;
  	height: fit-content;
@@ -3850,6 +3869,10 @@ i {
 	  -ms-transform: scale(1.05);
 	  transform: scale(1.05);
 	}
+	    .post > header .title > :last-child {
+              margin-bottom: 0;
+		color:black;
+           }
 	    
 	    .post>footer .button{
   		-moz-appearance: none;
@@ -3900,6 +3923,9 @@ i {
   .post > header{
     color: black;
   }
+     .post> p{
+        color: #080d11;
+	}
 	    
 	    
       .post > header .meta {
@@ -3913,7 +3939,7 @@ i {
         flex-direction: column;
       }
 	    
-	    .post > a.image.featured {
+   .post > a.image.featured {
       width:fit-content;
       height:fit-content;
       overflow: hidden;
@@ -3949,6 +3975,11 @@ i {
 	  -ms-transform: scale(1.05);
 	  transform: scale(1.05);
 	}
+	    
+	    .post > header .title > :last-child {
+              margin-bottom: 0;
+		color:black;
+           }
   
       .post > footer {
         -moz-align-items: -moz-stretch;
