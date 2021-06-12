@@ -4146,6 +4146,7 @@ p{
 	width:100%;
 	max-width:98rem;
 	padding:5rem;
+	margin:2rem;
 	background-color:#fff;
 	box-shadow:0 1.4rem 8rem rgba(0,0,0,.2);
 	display:flex;
@@ -4157,7 +4158,7 @@ p{
 	min-width:35rem;
 	max-width:35rem;
 	height:30rem;
-	transform:translateX(-8rem);
+	transform:translateX(-6rem);
 	position:relative;
 }
 
