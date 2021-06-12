@@ -4126,7 +4126,6 @@ i {
 
 p{
   color: #f5f6f7;
-  text-align: center;
 }
 
 .head1{
@@ -4135,6 +4134,7 @@ p{
 
 
 .lead1{
+  text-align: center;
   font-size: 1.10em;
   font-weight: 400;
   margin: 0% 4% 0% 4%;
