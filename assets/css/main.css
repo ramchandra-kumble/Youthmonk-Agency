@@ -4151,7 +4151,7 @@ p{
 	box-shadow:0 1.4rem 8rem rgba(0,0,0,.2);
 	display:flex;
 	margin-left:25px;
-	margin-right:25px;
+	//margin-right:25px;
 	align-items:center;
 	border-radius: .8rem;
 }
@@ -4232,7 +4232,6 @@ p{
 @media screen and(max-width:425px){
 	.blog-post{
 	max-width:20rem;
-	right:20px;
 	}
 	.blog-post_img{
 	min-width:20px;
