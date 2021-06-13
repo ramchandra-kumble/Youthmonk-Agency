@@ -4159,7 +4159,7 @@ p{
 	min-width:35rem;
 	max-width:35rem;
 	height:30rem;
-	transform:translateX(-5rem);
+	transform:translateX(-2rem);
 	position:relative;
 }
 .blog_post .blog-post_img img{
@@ -4232,7 +4232,6 @@ p{
 @media screen and(max-width:425px){
 	.blog-post{
 	max-width:50rem;
-	transform:translate(0,.8rem)
 	}
 	.blog-post_img{
 	min-width:80%;
