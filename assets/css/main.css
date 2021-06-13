@@ -4159,7 +4159,7 @@ p{
 	min-width:35rem;
 	max-width:35rem;
 	height:30rem;
-	transform:translateX(-2rem);
+	//transform:translateX(-4rem);
 	position:relative;
 }
 .blog_post .blog-post_img img{
@@ -4235,8 +4235,16 @@ p{
 	max-width:50rem;
 	}
 	.blog-post_img{
-	min-width:80%;
-	max-width:80%;
+	min-width:20rem;
+	max-width:20rem;
+	}
+	.blog-post_img img{
+	width:50%;
+	height:50%;
+	}
+	.blog-post_img img::before{
+	width:50%;
+	height:50%;
 	}
 }
 
