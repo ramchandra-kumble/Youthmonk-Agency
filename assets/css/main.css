@@ -4253,3 +4253,40 @@ p{
 	}
 }
     
+
+/* Newsletter */
+
+.newsletter{
+  align-items: center;
+  text-align: center;
+  background-color: #ffffff;
+  /* margin:0vw 15vw 0vw 20vw; */
+  /* border-radius: 7%; */
+}
+
+#newsletter-id{
+  padding-top: 2%;
+  margin: 5% 0% 0% 0%;
+}
+
+#newsltr{
+  color:black;
+}
+
+#name{
+  margin: 0vw 0vw 1vw 24vw ;
+  width:50vw;
+  background: #010d26;
+  color: white;
+}
+
+#email{
+  width:50vw;
+  margin: 0vw 0vw 1vw 24vw ;
+  background: #010d26;
+}
+#sub-btn{
+  color: #f5f6f7;
+  background: #010d26;
+  margin: 2% 2% 2% 0%;
+}
