@@ -4290,3 +4290,20 @@ p{
   background: #010d26;
   margin: 2% 2% 2% 0%;
 }
+
+
+
+/* Video section */
+
+#video{
+  text-align: center;
+  text-decoration: #f56a6a underline 2px;
+}
+
+#video-section{
+  margin: 1% 0% 1% 10%;
+  width: 80vw;
+  height: 55vh;
+  box-shadow: #6eabda 5px 3px 30px;
+  border-radius: 20px;
+}
