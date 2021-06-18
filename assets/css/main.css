@@ -2231,11 +2231,42 @@ button,
       max-height: 35vh; } }
 
 /* Footer */
-#footer .copyright {
-  color: #9fa3a6;
-  font-size: 0.9em; }
-  #footer .copyright a {
-    color: inherit; }
+.boxcenter,span{
+    background-color: rgba(0,0,0,.87);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer{
+    color: white;
+    background-color: rgba(0,0,0,.87);
+}
+.box{
+    background-color: rgba(0,0,0,.87);
+}
+.icons a{
+    color: white;
+    margin: 0 5px;
+}
+.icons h3{
+    color: #f56a6a;
+}
+.links span a,.box span a{
+    color: white;
+    text-decoration: none;
+}
+.links span a:hover,.icons a:hover,.box span a:hover{
+    color: #f56a6a;
+    transition: 0.3s ease;
+}
+.links span a:hover,.box span a:hover{
+    text-decoration: underline;
+}
+@media only screen and (max-width:600px){
+    .boxcenter{
+        flex-direction: column;
+    }
+}
 
 /* Menu */
 #menu ul {
