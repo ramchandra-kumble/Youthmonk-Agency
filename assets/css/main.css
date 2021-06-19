@@ -171,13 +171,6 @@ h6 {
 @media screen and (max-width: 980px) {
   h1 {
     font-size: 3.25em; }
- .wrapper{
-  grid-template-columns: repeat(1, 1fr);
-}
-	.wrapper .poll-area{
-  margin: 20px 0 15px 0;
-  display: block;
-}	
 }
 
 @media screen and (max-width: 736px) {
@@ -3118,6 +3111,16 @@ i {
 }
 
 @media screen and (max-width: 736px){
+	.wrapper{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 1em;
+}
+  .wrapper .poll-area{
+  margin: 20px 0 15px 0;
+  display: block;
+}
 .blog > header {
     padding: 3em 1.5em 0.5em 1.5em;
     left: -1.5em;
