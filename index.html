@@ -21,6 +21,119 @@
 		type="text/javascript"
 		src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
 	  ></script>
+		
+		
+		
+		<style type="text/css">
+.count-down-container{
+  width: 100%;
+  text-align: center;
+  background-color: #010d26;
+  color: white;
+}
+.count-down-container h1{
+  text-transform: uppercase;
+  font-size: 60px;
+  margin: 0px;
+  letter-spacing: 10px;
+}
+.cournrt-down-container h2{
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+.countd{
+  display: inline-block;
+  margin: 0 5px;
+  font-size: 12px;
+  overflow: hidden;
+}
+.countd span{
+  display: block;
+  font-size: 16px;
+  margin-top: 14px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper{
+  margin: 0 auto;
+  background: #888888;
+  padding: 25px;
+  width: 70%;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1em;
+}
+.wrapper h2{
+	text-align: center;
+}
+.wrapper .poll-area{
+  margin: 20px 0 15px 0;
+}
+.poll-area label{
+  display: block;
+  margin-bottom: 10px;
+  padding: 8px 15px;
+  border: 2px solid #e6e6e6;
+  transition: 0.3s ease;
+}
+.poll-area label:hover{
+  border-color: #f56a6a;
+}
+label .row{
+  display: flex;
+  pointer-events: none;
+  justify-content: space-between;
+}
+label .row .column{
+  display: flex;
+  align-items: center;
+}
+label .row span{
+  font-size: 16px;
+  font-weight: 500;
+}
+label .progress{
+  height: 7px;
+  width: 100%;
+  position: relative;
+  background: #f0f0f0;
+  margin: 8px 0 3px 0;
+  border-radius: 30px;
+  pointer-events: none;
+}
+label .progress:after{
+  position: absolute;
+  content: "";
+  height: 100%;
+  background: #f56a6a;
+  width: calc(1% * var(--w));
+  border-radius: inherit;
+}
+
+@media (max-width: 900px){
+	.wrapper{
+  grid-template-columns: repeat(1, 1fr);
+}
+	.wrapper .poll-area{
+  margin: 20px 0 15px 0;
+  display: block;
+}
+}
+
+  </style>
 	</head>
 
 
@@ -204,6 +317,66 @@
 									</div>
 								  </div>
 							</section>
+									
+									
+							<section >
+								<div class="wrapper">
+								<div>
+									<p>
+								<h1>Poll</h1> 
+								<hr>
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+								</div>
+						    <div class="poll-area">
+						      <label for="opt-1" class="opt-1">
+						        <div class="row">
+						          <div class="column">
+						            <span class="text">title</span>
+						          </div> 
+						          <span class="percent">30%</span>
+						        </div>
+						        <div class="progress" style='--w:30;'></div>
+						      </label>
+						      <label for="opt-2" class="opt-2">
+						        <div class="row">
+						          <div class="column">
+						            <span class="text">title</span>
+						          </div>
+						          <span class="percent">20%</span>
+						        </div>
+						        <div class="progress" style='--w:20;'></div>
+						      </label>
+						      <label for="opt-3" class="opt-3">
+						        <div class="row">
+						          <div class="column">
+						            <span class="text">title</span>
+						          </div>
+						          <span class="percent">40%</span>
+						        </div>
+						        <div class="progress" style='--w:40;'></div>
+						      </label>
+						      <label for="opt-4" class="opt-4">
+						        <div class="row">
+						          <div class="column">
+						            <span class="text">title</span>
+						          </div>
+						          <span class="percent">10%</span>
+						        </div>
+						        <div class="progress" style='--w:10;'></div>
+						      </label>
+						    </div>
+						  </div> <br> <br> <br>
+							</section>		
+									
+									
+									
+									
+									
 							<!--blog post section-->
 							<section class="blog_post" style="background-color:#010d26">
 								<header class="major">
@@ -374,6 +547,52 @@
 										<li><a href="case-study-home.html">Case Study</a></li>
 									</ul>
 								</nav>
+							
+							
+							
+							
+							
+							<!-- upcomming events -->
+							<section>
+									<header class="major">
+										<h2>Upcomming events</h2>
+									</header>
+									<div class="mini-posts">
+										<article>
+											<a href="blog1.html" class="image"><img height="150" src="blogimages/Dos and Donts.jpg" alt="" />
+											<div class="count-down-container">
+										        <div class="count">
+										          <div class="countd">
+										            <span id="days">00</span>
+										            DAYS
+										          </div>
+
+										          <div class="countd">
+										            <span id="hours">00</span>
+										            HOURS
+										          </div>
+
+										          <div class="countd">
+										            <span id="minutes">00</span>
+										            MINUTES
+										          </div>
+
+										          <div class="countd">
+										            <span id="seconds">00</span>
+										            SECONDS
+										          </div>
+										        </div>
+    										</div>	
+											</a>
+											
+											<p>Lorem deserunt mollit anim id est laborum.</p>
+										</article>
+										
+									</div>
+									<ul class="actions">
+										<li><a href="#" class="button">More</a></li>
+									</ul>
+								</section>
 
 							<!-- Section -->
 								<section>
