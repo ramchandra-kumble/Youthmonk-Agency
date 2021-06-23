@@ -4414,6 +4414,20 @@ p{
   box-shadow: #6eabda 5px 3px 30px;
   border-radius: 20px;
 }
+@media screen and (max-width: 360px){
+  #video-section{
+    height:35vh;
+    width:91vw;
+    margin: 1% 0% 1% 4%;
+}
+}
+@media screen and (max-width: 420px){
+  #video-section{
+    height:40vh;
+    width:91vw;
+    margin: 1% 0% 1% 4%;
+}
+}
 
 
 
